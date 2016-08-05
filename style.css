@@ -1,0 +1,96 @@
+@font-face {
+   font-family: whatever;
+   src: url(whatever.ttf);
+    
+}
+
+@font-face {
+   font-family: handwriting;
+   src: url(handwriting.ttf);
+    
+}
+
+
+
+body {
+    background-color:lightgreen;
+}
+
+
+ #name{ position:absolute; 
+     top:225px; 
+     left:190px;
+     font-family: whatever;
+      font-size: 50px;
+     
+     
+ }
+ 
+ #latepass {
+  position: relative;
+  display: inline;
+  
+ }
+ 
+ 
+#date {
+     position:absolute; 
+     top:110px; 
+     left:740px;
+     font-family: whatever;
+      font-size: 20px;
+     
+     
+ }
+ 
+ 
+ 
+  #clockbox {
+     position:absolute; 
+     top:158px; 
+     left:730px;
+     font-family: whatever;
+      font-size: 40px;
+     
+     
+ }
+ 
+ #latepass {
+  
+ 
+   display:none; 
+ 
+  
+  
+ }
+ 
+ 
+ h1,h2 {
+  
+  font-family:handwriting;
+  font-size:33px;
+    
+}
+ 
+ 
+ 
+ h6 {
+  
+  font-size:38px;
+ }
+ 
+ 
+@media print {
+	  body * {
+	    visibility: hidden;
+	  }
+	  #latepass ,
+	  #latepass * {
+	    visibility: visible;
+	  }
+	 /* #latepass {
+	    position: absolute;
+	    left: 0;
+	    top: 0;
+	  } */
+	} 
